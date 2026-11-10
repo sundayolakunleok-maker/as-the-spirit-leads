@@ -1,0 +1,15 @@
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/test-*.db*
+.env
+node_modules/
+.vercel/
+
+# local tooling and runtime artifacts
+tools/cloudflared.exe
+tools/*.log
+tools/*.pid
+tools/public-url.txt
+
+.vercel

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "{public/**,views/**,lib/**}"
+    }
+  },
+  "rewrites": [
+    { "source": "/((?!assets|css|js|favicon).*)", "destination": "/api/index" }
+  ]
+}
