@@ -13,3 +13,4 @@ tools/*.pid
 tools/public-url.txt
 
 .vercel
+.vercel-token
